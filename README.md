@@ -13,7 +13,7 @@ The clock is configured for **Indian Standard Time (IST, UTC+5:30)** and always 
 
 * 🌐 **WiFi Connectivity** – auto connects and syncs time from NTP servers
 * ⏳ **Real-Time Updates** – shows time in `HH:MM:SS` format
-* 📅 **Date + Day Display** – formatted as `Mon 08-Sep25 IST`
+* 📅 **Date + Day Display** – formatted as `Mon 08-Sep25 IN`
 * 🔋 **Always Accurate** – no drift, synced with internet
 * 🖥️ **16×2 I²C LCD** for compact display
 
@@ -49,6 +49,7 @@ The ESP32 fetches time from NTP, applies **UTC+5:30 offset** for IST, and displa
 
 * First row → Time (`HH:MM:SS`)
 * Second row → Date + Day (`Mon 08-Sep25 IST`)
+* Open the `.ino` file in Arduino IDE
 
 ---
 
@@ -60,9 +61,14 @@ Sample LCD Display:
 Online   18:45:12
 Mon 08-Sep-25 IN
 ```
-
+![image alt](images/ntp-clock-display.jpg)
 ---
 
+## 📸 Demo
+
+[Linked In](link)
+
+---
 ## 🚀 Future Improvements
 
 * Add **DS3231 RTC backup** for offline timekeeping
