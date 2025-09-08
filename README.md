@@ -1,3 +1,7 @@
+![ESP32 Supported](https://img.shields.io/badge/ESP32-Supported-blue?logo=espressif)
+[![NTP Clock](https://img.shields.io/badge/topic-ntp--clock-blue)](https://github.com/topics/ntp-clock)
+![Made with C++](https://img.shields.io/badge/Made%20with-C++-orange?logo=cplusplus)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 # ESP32 NTP IST Clock ⏰
 
 An **ESP32-based Internet-synced clock** that connects to WiFi, fetches real-time from [pool.ntp.org](https://www.ntppool.org/), and displays it on a **16×2 I²C LCD**.
@@ -34,6 +38,8 @@ The clock is configured for **Indian Standard Time (IST, UTC+5:30)** and always 
 | GPIO 22   | SCL       |
 
 *(Default I²C pins on ESP32: `GPIO 21 = SDA`, `GPIO 22 = SCL`)*
+
+![image alt](images/clock_circuit.png)
 
 ---
 
@@ -72,5 +78,3 @@ Mon 08-Sep25 IST
 This project is open-source under the MIT License.
 
 ---
-
-👉 Would you like me to also generate a **README badge section** (like “Made with ESP32”, “Arduino IDE”, “NTP”, etc.) for extra polish on GitHub?
