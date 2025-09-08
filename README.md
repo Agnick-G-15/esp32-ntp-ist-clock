@@ -39,7 +39,7 @@ The clock is configured for **Indian Standard Time (IST, UTC+5:30)** and always 
 
 *(Default I²C pins on ESP32: `GPIO 21 = SDA`, `GPIO 22 = SCL`)*
 
-![image alt](images/clock_circuit.png)
+![image alt](images/clock-circuit.png)
 
 ---
 
@@ -50,8 +50,6 @@ The ESP32 fetches time from NTP, applies **UTC+5:30 offset** for IST, and displa
 * First row → Time (`HH:MM:SS`)
 * Second row → Date + Day (`Mon 08-Sep25 IST`)
 
-👉 [View Full Code Here](./ntp_clock.ino)
-
 ---
 
 ## 📸 Output
@@ -60,7 +58,7 @@ Sample LCD Display:
 
 ```
 Online   18:45:12
-Mon 08-Sep25 IST
+Mon 08-Sep-25 IN
 ```
 
 ---
